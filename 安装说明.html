@@ -1,0 +1,38 @@
+<?php require __DIR__."/do/functions.php"; ?>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Mao10CMS安装说明</title>
+<link href="http://www.mao10.com/public/css/bootstrap.min.css" rel="stylesheet">
+<link href="http://www.mao10.com/theme/default/style.css" rel="stylesheet">
+</head>
+<body>
+<style>
+	#main {text-align: center; padding: 50px 0 40px; }
+	h2,h4 {font-weight: normal;}
+	h4 {color: #ff4a00; margin-bottom: 20px; }
+	li {margin-bottom: 20px; }
+</style>
+<div id="main">
+	<img src="http://www.mao10.com/mclogi.png">
+	<h2>Mao10CMS</h3>
+	<h4>安装说明</h2>
+</div>
+<div class="container mb-40">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3 col">
+			<ul class="list-unstyled">
+				<li>1、打开网站根目录的autoload.php,设置数据库信息，并保存。</li>
+				<li>2、访问http://你的域名/install.php执行安装，出现安装成功，则可以访问网站首页，注册的第一个账号即为管理员账号。</li>
+				<li>3、若提示安装失败，请仔细核对数据库信息是否填写正确，有无错误字符和多余空格。如果信息全部正确，却出现无法安装的情况，请到官网论坛<a href="http://www.mao10.com/bbs-index.html">http://www.mao10.com/bbs-index.html</a>反馈。</li>
+				<li>4、根目录的upload文件夹为附件文件夹，需要有可写权限。</li>
+				<li>5、程序压缩包中的__MACOSX文件夹没有用处，可以直接删除。</li>
+			</ul>
+		</div>
+	</div>
+</div>
+</body>
+</html>

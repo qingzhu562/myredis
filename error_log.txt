@@ -1,0 +1,15 @@
+[12-Sep-2017 15:06:55 Europe/Paris] PHP Fatal error:  Class 'Redis' not found in C:\wamp\www\mao\autoload.php on line 15
+[12-Sep-2017 15:06:55 Europe/Paris] PHP Stack trace:
+[12-Sep-2017 15:06:55 Europe/Paris] PHP   1. {main}() C:\wamp\www\mao\index.php:0
+[12-Sep-2017 15:06:55 Europe/Paris] PHP   2. require() C:\wamp\www\mao\index.php:2
+[12-Sep-2017 15:06:55 Europe/Paris] PHP   3. require() C:\wamp\www\mao\do\functions.php:2
+[12-Sep-2017 15:07:41 Europe/Paris] PHP Fatal error:  Class 'Redis' not found in C:\wamp\www\mao\autoload.php on line 15
+[12-Sep-2017 15:07:41 Europe/Paris] PHP Stack trace:
+[12-Sep-2017 15:07:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\mao\index.php:0
+[12-Sep-2017 15:07:41 Europe/Paris] PHP   2. require() C:\wamp\www\mao\index.php:2
+[12-Sep-2017 15:07:41 Europe/Paris] PHP   3. require() C:\wamp\www\mao\do\functions.php:2
+[12-Sep-2017 15:31:41 Europe/Paris] PHP Fatal error:  Class 'Redis' not found in C:\wamp\www\mao\autoload.php on line 15
+[12-Sep-2017 15:31:41 Europe/Paris] PHP Stack trace:
+[12-Sep-2017 15:31:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\mao\index.php:0
+[12-Sep-2017 15:31:41 Europe/Paris] PHP   2. require() C:\wamp\www\mao\index.php:2
+[12-Sep-2017 15:31:41 Europe/Paris] PHP   3. require() C:\wamp\www\mao\do\functions.php:2
